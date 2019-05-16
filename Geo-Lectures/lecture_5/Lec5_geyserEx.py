@@ -21,8 +21,8 @@ plt.show()
 
 # -- calculate the waiting time after eruption/ duration of bursts in minutes --  
 
-tdiff_e = np.diff(julianday) *24*60
-print(tdiff_e)
+tdiff_easy = np.diff(julianday) *24*60
+print(tdiff_easy)
 
 l = len(julianday)
 tdiff = np.zeros(l-1)
